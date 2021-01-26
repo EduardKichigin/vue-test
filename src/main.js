@@ -1,10 +1,10 @@
 import Vue from 'vue'
 import App from './App.vue'
-import Posts from './Posts.vue'
+import Post from './Post.vue'
 import Title from './Title.vue'
-import InputS from './InputS.vue'
+import InputSearch from './InputSearch.vue'
 import TextS from './TextS.vue'
-import AuthorS from './AuthorS.vue'
+import Author from './Author.vue'
 
 export const eventEmitter = new Vue()
 

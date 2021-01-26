@@ -1,6 +1,6 @@
 <template>
   <div>
-    <p>{{ todo.body }}</p>
+    <p>{{ author.name }}</p>
   </div>
 </template>
 
@@ -8,10 +8,22 @@
 import { eventEmitter } from "./main";
 export default {
   props: {
-    todo: {
+    author: {
       type: Object,
       required: true,
     },
   },
 };
 </script>
+
+<style scoped>
+div {
+  margin-top: auto;
+}
+
+p {
+  color: grey;
+  margin: 0;
+  padding: 10px;
+}
+</style>
